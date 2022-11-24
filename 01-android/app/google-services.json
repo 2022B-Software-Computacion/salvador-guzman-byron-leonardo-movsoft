@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325063762520",
+    "project_id": "b-s-blsg",
+    "storage_bucket": "b-s-blsg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325063762520:android:222758d16db07e32ca202d",
+        "android_client_info": {
+          "package_name": "com.example.blsg_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325063762520-giatl9tliagtgga3raavc50694vb0vgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcjk7TBbPJY8LBQFUDaNzLEb8yFojD-OY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325063762520-giatl9tliagtgga3raavc50694vb0vgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
