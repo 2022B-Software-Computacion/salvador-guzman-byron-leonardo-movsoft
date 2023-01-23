@@ -1,0 +1,1 @@
+Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;le ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;1999-05-05
