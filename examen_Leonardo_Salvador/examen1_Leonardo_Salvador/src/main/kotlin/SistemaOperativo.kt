@@ -58,7 +58,7 @@ class SistemaOperativo {
     //Update SO
     fun updateSistema(idSistema:Int, listaSistema: ArrayList<SistemaOperativo>):ArrayList<SistemaOperativo>{
 
-        //Buscar vivienda para actualizar
+        //Buscar SO
         var so = SistemaOperativo()
         var nuevoSO = so.readSistema(idSistema, listaSistema)
         var indSO = (so.readSistema(idSistema, listaSistema).idSistema)-1

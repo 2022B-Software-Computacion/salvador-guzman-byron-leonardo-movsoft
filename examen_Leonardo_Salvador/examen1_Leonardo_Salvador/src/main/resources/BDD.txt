@@ -1,1 +1,5 @@
-Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;le ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;1999-05-05
+Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;lolo ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;2022-02-02
+Aplicaciones; Id de Aplicacion;1 ;Nombre de Aplicacion;kk ;Es gratuita?;true ;Precio de Aplicacion;12.0 ;Fecha de Creacion de Aplicacion;2022-02-02
+Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;Windows ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;2022-01-23
+Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;pe ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;2012-02-02
+Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;lolo ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;2022-02-02
