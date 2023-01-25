@@ -1,3 +1,1 @@
-Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;pe ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;2012-02-02
-Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;Windows ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;2022-01-23
-Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;pe ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;2012-02-02
+Sistema Operativo; Id Sistema Operativo;1 ;Nombre del SO;Windows 10 ;Tiene licencia?;true ;Precio del SO;12.0 ;Fecha de instalacion del SO;2000-03-01

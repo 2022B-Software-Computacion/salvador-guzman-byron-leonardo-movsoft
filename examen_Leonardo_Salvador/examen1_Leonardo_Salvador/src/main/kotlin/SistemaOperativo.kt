@@ -38,8 +38,6 @@ class SistemaOperativo {
         val fechaInsSO = LocalDate.parse(readln())
         this.fechaDeInstalacion = fechaInsSO
 
-
-
     }
 
     //Read SO
