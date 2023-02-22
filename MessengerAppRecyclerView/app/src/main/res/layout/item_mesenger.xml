@@ -7,41 +7,44 @@
 
     <ImageView
         android:id="@+id/ivFotoAmigo"
-        tools:background="@color/black"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        tools:background="@color/black" />
 
     <ImageView
         android:id="@+id/ivConfLectura"
         android:layout_width="15dp"
         android:layout_height="15dp"
-
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintHorizontal_bias="0.878"
         app:layout_constraintLeft_toRightOf="@+id/msnUltimoMensaje"
         app:layout_constraintRight_toLeftOf="@+id/msnUltimoMensaje"
-        app:layout_constraintStart_toEndOf="@+id/msnUltimoMensaje"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/msnNombreAmigo"
         tools:background="@color/black" />
 
     <TextView
         android:id="@+id/msnNombreAmigo"
-        tools:text="Leo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@+id/ivFotoAmigo"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ivFotoAmigo"/>
+        tools:text="Leo" />
 
     <TextView
         android:id="@+id/msnUltimoMensaje"
-        tools:text="Hola"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@+id/ivFotoAmigo"
         app:layout_constraintTop_toBottomOf="@+id/msnNombreAmigo"
-        app:layout_constraintStart_toEndOf="@+id/ivFotoAmigo"/>
+        tools:text="Hola" />
 
     <TextView
         android:id="@+id/msnFecha"
