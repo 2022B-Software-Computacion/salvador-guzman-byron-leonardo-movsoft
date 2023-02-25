@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -10,22 +11,9 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:background="@color/black" />
-
-    <ImageView
-        android:id="@+id/ivConfLectura"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.878"
-        app:layout_constraintLeft_toRightOf="@+id/msnUltimoMensaje"
-        app:layout_constraintRight_toLeftOf="@+id/msnUltimoMensaje"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/msnNombreAmigo"
         tools:background="@color/black" />
 
     <TextView
@@ -33,23 +21,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toEndOf="@+id/ivFotoAmigo"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Leo" />
 
     <TextView
-        android:id="@+id/msnUltimoMensaje"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        app:layout_constraintStart_toEndOf="@+id/ivFotoAmigo"
-        app:layout_constraintTop_toBottomOf="@+id/msnNombreAmigo"
-        tools:text="Hola" />
-
-    <TextView
         android:id="@+id/msnFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintLeft_toRightOf="@+id/msnUltimoMensaje"
@@ -58,5 +39,29 @@
         app:layout_constraintTop_toBottomOf="@+id/msnNombreAmigo"
         tools:text="20 feb." />
 
+    <TextView
+        android:id="@+id/msnUltimoMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/ivFotoAmigo"
+        app:layout_constraintTop_toBottomOf="@+id/msnNombreAmigo"
+        tools:text="Hola" />
+
+    <ImageView
+        android:id="@+id/ivConfLectura"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintLeft_toRightOf="@+id/msnUltimoMensaje"
+        app:layout_constraintRight_toLeftOf="@+id/msnUltimoMensaje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msnNombreAmigo"
+        tools:background="@color/black" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
